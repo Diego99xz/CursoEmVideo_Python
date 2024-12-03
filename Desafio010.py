@@ -2,7 +2,7 @@ print('====== DESAFIO 010 ======')
 
 # Escreva um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos Dólares ela pode comprar.
 
-real = int(input('Informe seu dinheiro: '))
+real = float(input('Informe seu dinheiro: '))
 
 cotacao = 3.27
 
