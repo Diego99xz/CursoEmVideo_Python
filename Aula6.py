@@ -7,7 +7,7 @@ print('====== Aula 006 ======')
 #str
 
 n = input('Digite um valor: ')
-print(type(n))
+print(type(n)) #type informa o tipo primitivo da variavel
 print(n.isnumeric())
 print(n.isalpha())
 print(n.isdecimal())
