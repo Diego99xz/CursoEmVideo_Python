@@ -29,3 +29,6 @@ di = n1 // n2
 e = n1 ** n2
 print('A soma é {}, o produto é {} e a divisão é {:.2f}'.format(s, m, d), end=' ')
 print('a divisão inteira {} e a potência {}'.format(di, e))
+
+#como calcular raiz quadrada
+# 5**(1/2)

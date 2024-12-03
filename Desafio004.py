@@ -1,4 +1,4 @@
-print('====== DESAFIO 003 ======')
+print('====== DESAFIO 004 ======')
 
 n = input('Digite um valor: ')
 print(type(n)) #type informa o tipo primitivo da variavel
