@@ -2,7 +2,7 @@ print('====== DESAFIO 020 ======')
 
 # O Professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 
-import random
+from random import shuffle
 
 # Lendo os nomes dos alunos
 aluno1 = input('Digite o nome do primeiro aluno: ')
@@ -14,9 +14,8 @@ aluno4 = input('Digite o nome do quarto aluno: ')
 alunos = [aluno1, aluno2, aluno3, aluno4]
 
 # Embaralhando a lista
-random.shuffle(alunos)
+shuffle(alunos)
 
 # Mostrando a ordem sorteada
 print('A ordem de apresentação será:')
-for i, aluno in enumerate(alunos, 1):
-    print(f'{i}º - {aluno}')
+print(alunos)
