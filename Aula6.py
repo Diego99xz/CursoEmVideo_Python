@@ -17,9 +17,9 @@ print('A soma entre {} e {} vale {}'.format(n1, n2, s))
 print('--------------------------------------')
 n = input('Digite um valor: ')
 print(type(n))
-print(n.isnumeric())
-print(n.isalpha())
-print(n.isalnum())
-print(n.isupper())
-print(n.islower())
-print(n.isprintable())
+print(n.isnumeric())# é numerico?
+print(n.isalpha())# é alfabetico?
+print(n.isalnum())# é alfa númerico?
+print(n.isupper())# letra maiúscula?
+print(n.islower())# letra minúscula?
+print(n.isprintable())# pode ser printavel?
