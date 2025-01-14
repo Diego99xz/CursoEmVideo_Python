@@ -19,3 +19,32 @@ print('====== Aula 007 ======')
 # 5 + 3 * 2 == 11
 # 3 * 5 + 4 ** 2 == 31
 # 3 * (5 + 4) ** 2 = 243
+
+#calculando raiz Quadrada
+print(81**(1/2))
+#potência
+print(4**3)
+#portência
+print(pow(4,3))
+
+#printando igual 20 vezes
+print('='*20)
+
+nome = input('Qual é seu nome? ')
+print('Prazer em te conhecer {:20}!'.format(nome))
+print('Prazer em te conhecer {:>20}!'.format(nome))
+print('Prazer em te conhecer {:<20}!'.format(nome))
+print('Prazer em te conhecer {:^20}!'.format(nome))
+print('Prazer em te conhecer {:=^20}!'.format(nome))
+
+print('='*30)
+n1 = int(input('Um valor: '))
+n2 = int(input('Outro valor: '))
+s = n1+n2
+m = n1*n2
+d = n1/n2
+di = n1//n2
+p = n1**n2
+
+print('A soma é {}\no produto é {}\nA divisão é {:.3f}'.format(s, m, d))
+print('A Divisão inteira {}\nA potência {}'.format(di, p))
