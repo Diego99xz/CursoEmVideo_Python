@@ -11,8 +11,12 @@ milhar:1
 
 '''
 numero = int(input('Digite um número de 0 a 9999: '))
-numero_str = f'{numero:4}'
-print(f'Unidade: {numero_str[0]}')
-print(f'Dezena: {numero_str[1]}')
-print(f'Centena: {numero_str[2]}')
-print(f'Milhar: {numero_str[3]}')
+u = numero // 1 % 10
+d = numero // 10 % 10
+c = numero // 100 % 10
+m = numero // 1000 % 10
+
+print(f'Unidade: {u}')
+print(f'Dezena: {d}')
+print(f'Centena: {c}')
+print(f'Milhar: {m}')

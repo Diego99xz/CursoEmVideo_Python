@@ -6,6 +6,7 @@ print('====== DESAFIO 026 ======')
 #Em que posição ela aparece a última vez
 
 frase = str(input('Digite uma frase: '))
+frase = frase.strip()
 frase = frase.upper()
 print(f'A frase possui {frase.count('A')} letras "A"')
 print(f'A Primeira letra está "A" na posição {frase.find('A')}')

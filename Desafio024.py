@@ -4,5 +4,4 @@ print('====== DESAFIO 024 ======')
 
 cidade = str(input('Informe a cidade: '))
 cidade = cidade.upper()
-print('Se tiver SANTO no nome retornará 0 caso contrario -1')
-print(cidade.find('SANTO',0,5))
+print(cidade[:5] == 'SANTO')
