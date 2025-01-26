@@ -5,5 +5,5 @@ print('====== DESAFIO 051 ======')
 n1 = int(input('Informe o primeiro termo: '))
 r = int(input('Informe a razão: '))
 
-for i in range(n1, r*10, r):
+for i in range(n1, r*12, r):
     print(i)

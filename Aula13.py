@@ -1,6 +1,6 @@
 print('====== Aula 013 ======')
 
-#Estrutura de repetições 
+#Estrutura de repetições For
 
 #Contagem
 for c in range(0,6):
