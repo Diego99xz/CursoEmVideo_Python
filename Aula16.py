@@ -1,13 +1,15 @@
 print('====== Aula 016 ======')
 
-#Tuplas ()
+# tupla = ()
+# lista = []
+# dicionario = {}
 
 #As Tuplas são imutáveis, ou sejá não pode trocar os valores dos itens
 
 lanche = ('Hambúrguer','Suco','Pizza','Pudim')
 
 print(lanche[2]) #item do indice 2
-print(lanche[0:2])#itens do indice 0 á 2
+print(lanche[0:2])#itens do indice 0 até o 2 monstrando somente item 0 e 1
 print(lanche[1:])#itens do indice 1 até o fim
 print(lanche[-1])#Último item do indice
 print(lanche[-2])#Penúltimo item do indice
@@ -29,6 +31,9 @@ print('\n------------------')
 for posicao, comida, in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {posicao}')
 
+print('\n------------------')
+
+print(sorted(lanche))# Imprime em ordem. no caso alfabetica que tambem está transformando em lista
 print('\n------------------')
 
 a = (2, 5, 4)
