@@ -1,4 +1,4 @@
-print('====== DESAFIO 071 ======')
+print('====== DESAFIO 072 ======')
 
 #Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso, de zero até vinte.
 #Seu programa deverá ser um número pelo teclado (entre 0 e 20) mostrá-lo por extenso.
