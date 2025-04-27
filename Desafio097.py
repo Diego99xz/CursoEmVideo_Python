@@ -9,3 +9,13 @@ print('====== DESAFIO 097 ======')
 #---------------
 # Olá, mundo!
 #---------------
+
+def escreva(msg):
+    tamanho = len(msg) + 4
+    print('~'*tamanho)
+    print(f'  {msg}')
+    print('~'*tamanho)
+
+#PROGRAMA PRINCIPAL
+mensagem = str(input('Escreva uma mensagem: '))
+escreva(mensagem)
